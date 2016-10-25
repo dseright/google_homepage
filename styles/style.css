@@ -1,4 +1,29 @@
-
+.body a {
+	color: rgb(0,0,0);
+	text-decoration: none;
+}
+.body a:hover {
+	text-decoration: underline;
+}
+.navtop {
+	float: right;
+	color: rgb(0, 0, 0);
+	display: inline-block;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	line-height: 24px;
+	opacity: .75;
+	text-align: right;
+	text-decoration: none;
+	user-select: none;
+	padding: 0 30px;
+	align-items: center;
+	height: 30px;
+	position: relative;
+}
+.toplinks {
+	padding-right: 15px;
+}
 .center {
 	display: block;
 	margin: auto;
@@ -12,6 +37,11 @@ img {
 	width: 525px;
 	padding-bottom: 10px;
 	margin-bottom: 40px;
+	font-family: arial, sans-serif;
+	font-size: 16px;
+	height: 20px;
+
+
 }
 #searchbut {
 
