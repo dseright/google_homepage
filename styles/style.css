@@ -1,5 +1,8 @@
+.body {
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
 .body a {
-	color: rgb(0,0,0);
 	text-decoration: none;
 }
 .body a:hover {
@@ -21,14 +24,17 @@
 	height: 30px;
 	position: relative;
 }
+.navtop a {
+	color: rgb(0,0,0);
+}
 .toplinks {
 	padding-right: 15px;
 }
 .center {
 	display: block;
 	margin: auto;
+	padding-top: 200px;
 	text-align: -webkit-center;
-	padding-top: 100px;
 }
 img {
 	padding-bottom: 20px;
@@ -36,7 +42,7 @@ img {
 #searchbar {
 	width: 525px;
 	padding-bottom: 10px;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	font-family: arial, sans-serif;
 	font-size: 16px;
 	height: 20px;
@@ -60,4 +66,31 @@ img {
 	background-color: rgb(242, 242, 242);
 	border: none;
 	-webkit-appearance: none;
+}
+.footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: rgb(242, 242, 242);
+	border-top-color: rgb(228, 228, 228);
+	border-top-style: solid;
+	border-top-width: 1px;
+	height: 40px;
+	line-height:40px;
+	display: inline-block;
+}
+.footer a {
+	color: rgb(102, 102, 102);
+}
+.leftfoot {
+	float: left;
+}
+.leftfoot a {
+	padding-left: 27px;
+}
+.rightfoot {
+	float: right;
+}
+.rightfoot a {
+	padding-right: 27px;
 }
